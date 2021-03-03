@@ -1,0 +1,153 @@
+hr {
+    height: 1px;
+    background-color:#fff;
+    margin-top: 40px;
+  }
+
+.marca{
+    margin-left: 30px;
+    margin-top: 20px;
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
+    width: 120px;
+    height: 32px;
+    font-family:'Roboto';
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: -20;
+    }
+.titulo{
+    width: 730px;
+    height: 70px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: medium;
+    font-size: 30px;
+    padding-top: 5px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0.1em;
+    font-weight: 700;
+    line-height: 1;
+    word-spacing: 85pt;
+    }
+
+
+body{
+    background-color: rgb(34, 36, 37);
+    }
+
+
+.contenedor {
+    width: 800px;
+    height: 420px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 15px;
+    padding-top: 70px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0.1em;
+    font-weight: 700;
+    line-height: 1;
+    background-color: rgb(63, 134, 139);
+    margin-top: 85px;
+    border-radius: 5%;
+
+}
+
+h4{
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 15px;
+    color:#fff;
+    letter-spacing: 0.1em;
+    font-weight: 700;
+    line-height: 1;
+    padding-top: 30px;
+
+}
+h5{
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 15px;
+    letter-spacing: 0.1em;
+    font-weight: 700;
+    line-height: 1;
+    padding-top: 30px;
+    color: rgb(0, 0, 0);
+
+}
+
+.colores3{
+    background-color: rgb(34, 36, 37);
+    width: 150px;
+    height: 80px;
+    margin-left: 190px;
+    border-radius: 5%;
+    margin-top: -25px;
+}
+.colores2{
+    background-color: rgb(65, 88, 98);
+    width: 150px;
+    height: 80px;
+    margin-left: 190px;
+    border-radius: 5%;
+    margin-top: 0px;
+}
+.colores1{
+    background-color: rgb(255, 255, 255);
+    width: 150px;
+    height: 80px;
+    margin-left: 190px;
+    border-radius: 5%;
+    margin-top: 25px;
+}
+.op3{
+    background-color: rgb(34, 36, 37,0.7);
+    width: 150px;
+    height: 80px;
+    margin-left: 450px;
+    border-radius: 5%;
+    margin-top: -305px;
+}
+.op2{
+    background-color: rgb(65, 88, 98,0.5);
+    width: 150px;
+    height: 80px;
+    margin-left: 450px;
+    border-radius: 5%;
+    margin-top: 0px;
+}
+.op1{
+    background-color: rgb(34, 36, 37,0.1);
+    width: 150px;
+    height: 80px;
+    margin-left: 450px;
+    border-radius: 5%;
+    margin-top: 25px;
+}
+
+
+@font-face {
+    font-family: 'helvetica1';
+    src: url(../font/Helvetica.ttf); 
+}
+
+#bestfont {
+    font-family: 'helvetica1';
+}
+
+@font-face {
+    font-family: 'helveticaitalic';
+    src: url(../font/HelveticaNeue-UltraLightItalic.otf); 
+}
+
+#bestfont2 {
+    font-family: 'helveticaitalic';
+}

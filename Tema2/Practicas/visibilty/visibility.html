@@ -1,0 +1,67 @@
+<!--Diego Bajo Maestro Diseño de Interfaces-->
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content ="with=device-with, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+        <title>Diego Bajo</title>
+    </head>
+
+<Style>
+@import url(../visibilty/css/visibility.css);
+</Style>
+   
+<body class="fondo">
+    <div class="marca" id="bestfont">BAJO</div>
+    <hr>
+    <div class="contenedor">
+        <div class="titulo">
+            VISIBILITY 
+        </div>
+            
+        <div class="imgbox" id="imgbox1">
+            <img src="img/1585492138313.jpg" style="width:100%">
+            <button onclick="removeElement()">Remove</button>
+          </div>
+          
+          <div class="imgbox" id="imgbox2">
+            <img src="img/nebi_2020213857.jpg"  style="width:70%; margin-top:-40px;">
+            <button onclick="changeVisibility()">Hide</button>
+          </div>
+          
+          <div class="imgbox">
+            <img src="img/2020-11-02-072854649.jpg" style="width:100%">
+            <button onclick="resetElement()">Reset</button>
+          </div>
+          
+          <script>
+          function removeElement() {
+            document.getElementById("imgbox1").style.display = "none";
+          }
+          
+          function changeVisibility() {
+            document.getElementById("imgbox2").style.visibility = "hidden";
+          }
+          
+          function resetElement() {
+            document.getElementById("imgbox1").style.display = "block";
+            document.getElementById("imgbox2").style.visibility = "visible";
+          }
+          </script>
+          
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,133 @@
+@font-face { 
+  font-family: 'sanfranciscoheavy'; 
+  src: url('../font/SFProDisplay-Heavy.ttf'); 
+} 
+@font-face{
+  font-family: 'sanfranciscoregular';
+  src: url('../font/FontsFree-Net-SFProDisplay-Regular.ttf');
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color:#fff;
+  }
+
+    h1{  
+    font-family: 'sanfranciscoheavy';
+    font-size: 40px;
+    color: #2e2e2e;
+    letter-spacing: 0.08em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1cm;
+    }
+    h2 {
+      text-align: center;
+      font-family: 'Roboto Condensed', sans-serif;
+      font-size: 50px;
+      padding-top: 30px;
+      color: white;
+    } 
+    h4 {
+      text-align: center;
+      font-family: 'Roboto';
+      font-size: 18px;
+      font-weight: 900;
+      color: rgb(0, 0, 0);
+    } 
+
+.banner__video {
+      width: 100%;
+    }
+a:link {
+    text-decoration: none;
+  }
+
+.imagen_circular{
+    width: 187px;
+    height: 187px;
+    object-fit: cover;
+    position: absolute;
+    top: 45%;
+    left: 28%;
+    -webkit-box-shadow: 0px 36px 40px -24px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 36px 40px -24px rgba(0,0,0,0.57);
+    box-shadow: 0px 36px 40px -24px rgba(0,0,0,0.57);
+    border-radius: 50%;
+    }
+.cabecera{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    margin-top: 50px;
+    }
+.container{
+      letter-spacing: 0.02em;
+      line-height: 2em;
+      font-size: 20px;
+      min-width: 420px;
+      text-align: left;
+      margin: 2cm 12cm 4cm 12cm;
+      font-family: 'sanfranciscoregular';
+
+    }
+.box-container{
+    width: 100%;
+    position: absolute;
+    top: 135%;
+}
+
+.box-wrap {
+    column-gap: 4%;
+    display:flex;
+    justify-content:center;
+}
+
+.banner-video {
+      z-index: -1000;
+      width: 100%;
+  }
+.box{
+    padding: 15px;
+    border:3px solid #d6d6d6;
+    box-shadow:0 2px 3px 0px rgba(0,0,0,0.25);
+    border-radius:3px;
+    transition:.2s all;
+    font-family: 'Roboto';
+    font-size: 14.5px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    color: #fff;
+}
+      .box-wrap:hover .box{
+        filter:blur(3px);
+        opacity:.5;
+        transform: scale(.98);
+        box-shadow:none;
+      }
+      .box-wrap:hover .box:hover{
+        transform:scale(1);
+        filter:blur(0px);
+        opacity:1;
+        box-shadow:0 8px 20px 0px rgba(0,0,0,0.125);
+      }
+.media{
+      width: 100%;
+      margin-bottom: 2%;
+}
+.sign {
+    margin-top: 1%;
+    margin-bottom: 5%;
+    position: relative;
+    left: 45%;
+}
+      

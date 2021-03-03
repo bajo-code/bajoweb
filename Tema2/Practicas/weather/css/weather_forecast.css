@@ -1,0 +1,242 @@
+hr {
+    height: 0.5px;
+    position: absolute;
+    top: 10.2%;
+    color: rgb(255, 0, 0);
+    width: 100%;
+    z-index: 1;
+ 
+  }
+  .headerff{
+        width: 100%;
+        height: 90px;
+        background-color: #080808
+  }
+
+  .marca {
+    border-style: solid;
+    border-color: white;
+    border-width: 2.5px;
+    width: 80px;
+    font-size: 12px;
+    letter-spacing: 0.3em;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    position: absolute;
+    top: 3%;
+    left: 2%;
+    font-family: 'helvetica3';
+    font-weight: 800;
+}
+
+.header {
+    padding: 15px;
+    text-align: center;
+    height: 150px;
+    width: 100%;
+}
+
+.header > h1{
+    position: relative;
+    top: 20%;
+    vertical-align: middle; 
+    text-align: center;
+    font-family: 'helvetica2';
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 2.7em;
+    font-weight: 900;
+    letter-spacing: 0.02em; 
+}
+
+body{
+    background-color: #292929;
+    margin: 0;
+    }
+
+    @font-face {
+        font-family: 'helvetica1';
+        src: url(../font/Helvetica.ttf); 
+    }
+    
+    @font-face {
+        font-family: 'helvetica2';
+        src: url(../font/HelveticaNeue-Bold.otf); 
+    }
+    
+    @font-face {
+        font-family: 'helvetica3';
+        src: url(../font/HelveticaNeue-Medium.otf); 
+        
+    }
+
+    /* iconos */
+    .icon {
+        background-repeat: no-repeat;
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+        background-size: contain;
+        z-index: 5;
+    }
+    
+    .icon.rain {
+        background-image: url("https://cdn.glitch.com/837e1dde-8f7c-4df4-8d84-9200a53f45cc/rain_s_cloudy.png?v=1588942692675");
+    }
+    
+    .icon.sunny {
+        background-image: url("https://cdn.glitch.com/837e1dde-8f7c-4df4-8d84-9200a53f45cc%2Fsunny.png?v=1588942701577");
+    }
+    
+    .icon.pc {
+        background-image: url("https://cdn.glitch.com/837e1dde-8f7c-4df4-8d84-9200a53f45cc%2Fpartly_cloudy.png?v=1588942697934");
+    }
+    
+    .icon.sshowers {
+        background-image: url("https://cdn.glitch.com/837e1dde-8f7c-4df4-8d84-9200a53f45cc%2Frain_s_cloudy.png?v=1588942692675");
+    }
+    
+    .icon.cloudy {
+        background-image: url("https://cdn.glitch.com/837e1dde-8f7c-4df4-8d84-9200a53f45cc%2Fcloudy.png?v=1588942708821");
+    }
+    
+    .icon.thunder {
+        background-image: url("https://cdn.glitch.com/837e1dde-8f7c-4df4-8d84-9200a53f45cc%2Fthunderstorms.png?v=1588942705076");
+    }
+    
+
+    .main_box {
+        padding: 10px 10px 0 10px;
+        display: inline-block;
+        background-color: #575757;
+        border-radius: 10px;
+    }
+
+    .main_box > * {
+        font-family: 'helvetica3';
+    }
+
+    .location{
+        color: #fff;
+        font-size: 45px;
+    }
+
+    .date{
+        color: #fff;
+        font-size: 20px;
+        font-weight: 300;
+    }
+
+    .desc{
+        color: #fff;
+        font-size: 20px;
+        font-weight: 300;
+    }
+
+    .bloque1{
+        width: 100%;
+        color: #fff;
+    }
+
+    .bloque1 .right {
+        width: 50%;
+        float: left;
+    }
+    
+    .bloque1 .left {
+        width: 50%;
+        float: left;
+    }
+
+    .left .icon {
+        width: 64px;
+        height: 64px;
+    }
+
+    .temp {
+        font-size: 2.5em;
+        display: inline-block;
+        vertical-align: top;
+    }
+    
+    .scale {
+        vertical-align: top;
+        display: inline-block;
+        margin-top: 6px;
+        color: #fff;
+    }
+
+
+    /*lado derecho caja*/
+    .wind:before {
+        content: "Wind: ";
+        color: #fff;
+    }
+    
+    .precip:before {
+        content: "Precipitation: ";
+        color: #fff;
+    }
+    
+    .humidity:before {
+        content: "Humidity: ";
+        color: #fff;
+    }
+    
+    .pollen:before {
+        content: "Pollen Count: ";
+        color: #fff;
+    }
+    
+    .pcount:before {
+        content: "Pollen ";
+        color: #fff;
+    }
+
+
+    /* SEMANA */
+
+    .week div {
+        vertical-align: middle;
+    }
+    
+    .week-fc {
+        margin: 0 -11px -1px -11px;
+        padding: 10px;
+    }
+    
+    .week-fc div {
+        display: inline-block;
+    }
+
+    .seven-day-fc .date {
+        font-weight: bold;
+        color: #fff;
+    }
+    
+    .seven-day-fc .icon {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .week-fc .seven-day-temp {
+        text-align: center;
+    }
+    
+    .week-fc .temp-high {
+        color: #fff;
+    }
+    
+    .week-fc .temp-low {
+        color: #fff;
+    }
+
+    .week-fc .temp-low,
+    .week-fc .temp-high {
+    display: block;
+}
+
+.week-fc .pcount {
+    text-align: center;
+}

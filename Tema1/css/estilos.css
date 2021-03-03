@@ -1,0 +1,255 @@
+hr {
+    height: 0.01px;
+    background-color:#fff;
+    margin-top: 40px;
+    width: 100%;
+}
+
+h4 {
+    width: 730px;
+    height: 70px;
+    text-align: left;
+    margin-top: 135px;
+    color: #fff;
+    letter-spacing: 1px;
+    font-weight: 600;
+    line-height: 1;
+    font-size: 1.3em;
+    font-family: 'Roboto';
+    }
+
+#tools_doc{
+    padding-top: 445px;
+    font-size: 1.64286em;
+    letter-spacing: 0.2px;
+}
+
+#practices{
+    margin-top: 310px;
+}
+
+h5 {
+    width: 730px;
+    height: 70px;
+    text-align: left;
+    color: #fff;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+    line-height: 1;
+    font-size: 0.85em;
+    font-family: 'Roboto';
+    margin-top: -65px;
+}
+
+.marca{
+    margin-left: 40px;
+    margin-top: 20px;
+    border-style: solid;
+    border-color: white;
+    border-width: 2.8px;
+    width: 80px;
+    height: 24px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+    color: white;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: -8px;
+}
+
+.titulo{
+    width: 730px;
+    height: 70px;
+    margin: auto;
+    text-align: center;
+    padding-top: 70px;
+    color: white;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    letter-spacing: 0.13em;
+    font-family: "Roboto","HelveticaNeue","Helvetica Neue",sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+#titulo2{
+    margin-top: 150px;
+}
+body{
+    background-color: #0f0f0f;
+    width:100%;
+}
+
+.documentacion{
+    background-image: url(../Documentacion/img/thumb.jpg);
+    width: 430px;
+    height: 430px;
+    margin-right: 200px;
+    margin-top: -120px;
+    
+}
+
+.herramientas{
+    margin-left: 40px;
+    background-image: url(../Herramientas/img/thumb.jpg);
+    width: 430px;
+    height: 430px;
+    top: -50px;
+    margin-top: -120px;
+}
+
+    .documentacion:hover {
+        box-shadow: inset  100px 100px 100px 200px rgba(29, 28, 28, 0.3);
+    }
+    .herramientas:hover {
+        box-shadow: inset  100px 100px 100px 200px rgba(29, 28, 28, 0.3);
+    }
+
+    h4:hover {
+        color: rgba(255, 255, 255, 0.8);
+    }
+
+
+
+.icon{
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 150px;
+}
+
+.contenedor4 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 18px;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 18px;
+} 
+
+a{
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: 'helvetica1';
+    src: url('../font/Helvetica.ttf'); 
+}
+
+#bestfont {
+    font-family: 'helvetica1';
+}
+
+
+/*PRACTICAS*/
+
+.colores{
+    padding-top: 20px;
+    background-image: url(../Practicas/colores/img/thumb.jpg);
+    width: 300px;
+    height: 300px;
+    margin-left: 180px;
+    margin-right: auto;  
+}
+
+.colores:hover {
+    box-shadow: inset  100px 100px 100px 200px rgba(29, 28, 28, 0.3);
+}
+.iconos:hover {
+    box-shadow: inset  100px 100px 100px 200px rgba(29, 28, 28, 0.3);
+}
+.fuentes:hover {
+    box-shadow: inset  100px 100px 100px 200px rgba(29, 28, 28, 0.3);
+}
+.balsamiq:hover {
+    box-shadow: inset  100px 100px 100px 200px rgba(29, 28, 28, 0.3);
+}
+.actividades:hover {
+    box-shadow: inset  100px 100px 100px 200px rgba(29, 28, 28, 0.3);
+}
+.plantillas:hover {
+    box-shadow: inset  100px 100px 100px 200px rgba(29, 28, 28, 0.3);
+}
+.bootstrap:hover {
+    box-shadow: inset  100px 100px 100px 200px rgba(29, 28, 28, 0.3);
+}
+h5,h4:hover {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.iconos{
+padding-top: 20px ;
+margin-left: 40px;
+background-image: url(../Practicas/iconos/img/thumb.jpg);
+width: 300px;
+height: 300px;
+top: -50px;
+}
+
+.fuentes{
+padding-top: 20px ;
+background-image: url(../Practicas/fuentes/img/thumb.jpg);
+width: 300px;
+height: 300px;
+margin-right: 180px;
+margin-left: 40px;
+}      
+
+
+
+.contenedor2 {
+display: flex;
+justify-content: center;
+width: 100%;
+margin-top: 25px;
+}
+
+.balsamiq{
+padding-top: 20px;
+background-image: url(../Practicas/balsamiq/img/thumb.jpg);
+width: 300px;
+height: 300px;
+margin-left: 260px;
+margin-right: auto;  
+margin-top: 100px;
+}
+
+.actividades{
+    padding-top: 20px ;
+    background-image: url(../Practicas/actividades/img/thumb.jpg);
+    width: 300px;
+    height: 300px;
+    top: -50px;
+    margin-top: 100px;
+    margin-left: 40px;
+}
+
+.plantillas{
+    padding-top: 20px ;
+    background-image: url(../Practicas/plantilla_materialize/img/thumb.jpg);
+    width: 300px;
+    height: 300px;
+    margin-top: 100px;
+    margin-right: 260px;
+    margin-left: 40px;
+}
+.contenedor3 {
+display: flex;
+justify-content: center;
+width: 100%;
+margin-top: 25px;
+}
+
+.bootstrap{
+    padding-top: 20px;
+    background-image: url(../Practicas/bootstrap/img/thumb.jpg);
+    width: 300px;
+    height: 300px;
+    margin-left: -490px;
+    margin-top: 100px;
+    }
